@@ -5,7 +5,6 @@ async def cpu_bound():
     c = 0
     for _ in range(1000000):
         c += 1
-    return c
 
 
 async def main():
